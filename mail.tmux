@@ -16,7 +16,7 @@ set_tmux_option() {
 do_interpolation() {
   local string=$1
   local mail_interpolated=${string/$mail_interpolation/$mail}
-  echo $mail_interpolation
+  echo $mail_interpolated
 }
 
 update_tmux_option() {
