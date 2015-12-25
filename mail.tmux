@@ -15,7 +15,7 @@ set_tmux_option() {
 
 do_interpolation() {
   local string=$1
-  local percentage_interpolated=${string/$mail_interpolation/$mail}
+  local mail_interpolated=${string/$mail_interpolation/$mail}
   echo $all_interpolated
 }
 
