@@ -10,4 +10,4 @@ getGmail(){
     echo "✉ ${OUTPUT}"
   fi
 }
-
+getGmail
